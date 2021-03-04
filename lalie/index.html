@@ -1,0 +1,42 @@
+﻿<!--
+    BON ! Le but de ce site sera sur le long terme de faire un site pour mon bot discord.
+    Je veux pouvoir ajouter une interface pour mieux paramètrer le bot car avec juste en utilisant des commandes Discord c'est pas ouf
+    Pour l'instant j'ai fait que la base du site, mais je ajouter un peu de javaScript par-ci par-là histoire de faire un vrai site PRATIQUE.
+    La page de connection se fera à travers le système d'auth de discord, pour le reste je verrai plus tard
+
+    Du coup la page "login" accueillera le tableau demandé dans la feuille d'évaluation, je savais pas trop où le mettre x)
+
+
+    AH et le "box menu" j'aimais pas sur le côté alors je l'ai mis dans l'en-tête ^^
+-->
+
+
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>You Want Cookies</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href= "style.css" />
+        <link rel="icon" href="icon.png">
+    </head>
+    <body>
+        <header>
+            <div class="nomBot"><img src="pdp_bot.png" alt="website logo" class="logo"><h1>You Want Cookies's<br>Fursuit workshop</h1></div>
+            <span class="menuLien" onclick="location.href='tos.html';" style="cursor: pointer"><a> Term of service </a></span>
+            <span class="menuLien" onclick="location.href='infos.html';" style="cursor: pointer"><a> informations </a></span>
+            <span class="menuLien" onclick="location.href='contact.html';" style="cursor: pointer"><a> Contact </a></span>
+        </header>
+        <div class="page">
+            <h1 class="youWant">You Want Cookies's<br>Fursuit Workshop</h1>
+            
+            <img src="bot_reset.png" class="picReset" alt="bot reset explain picture">
+            <div class="texteUn">
+                <h1>Try to catch as many shiny Pokemon as possible !</h1>
+                <p>With the T-Pokebot, make resets and try to have as much shiny as possible ! Challenge your friends and be the best hunter !</p>
+            </div>
+            
+        </div>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
