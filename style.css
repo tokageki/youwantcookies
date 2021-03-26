@@ -1,0 +1,114 @@
+
+@font-face{
+	font-family:"coolvetica";
+	src: url("coolvetica.ttf");
+}
+
+
+body{
+	background-color: #232C41; 
+	background-image: url(motif.png);
+	background-size: 40%;
+	text-align : left;
+	font-family: 'coolvetica', sans-serif;
+	color:#B6B6B6;
+
+}
+
+
+header{
+	background: rgba(66,83,123,.5);
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.logoContainer{
+    order:0;
+    position: relative;
+    height: 15%;
+	width: 15%;
+    max-width: 150px;
+    min-width: 100px;
+    padding-top:1%;
+    padding-left:1%;
+    padding-bottom:1%;
+}
+
+.logoContainer img{
+    height: 100%;
+	width: 100%;
+}
+
+.title{
+    order:1;
+    font-size: clamp(13px, 2vw, 20px);
+    padding-left: 2% ;
+    padding-right: 2% ;
+    padding-top: 1%;
+}
+
+.links{
+    order:2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 20%;
+    font-size: clamp(15px, 2vw, 20px);
+    flex-wrap: wrap ;
+    
+}
+
+
+
+.galerie{
+    order:0;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    transition: background-color 0.3s;
+}
+
+.galerie:hover{
+	color : #E1E1E1;
+	background-color:#506699 ;
+    cursor: pointer;
+}
+
+.prix{
+    order:1;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    transition: background-color 0.3s;
+}
+.prix:hover{
+	color : #E1E1E1;
+	background-color:#506699 ;
+    cursor: pointer;
+}
+
+.contact{
+    order:2;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    transition: background-color 0.3s;
+}
+.contact:hover{
+	color : #E1E1E1;
+	background-color:#506699 ;
+    cursor: pointer;
+}
+
