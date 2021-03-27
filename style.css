@@ -8,12 +8,14 @@
 body{
 	background-color: #232C41; 
 	background-image: url(motif.png);
-	background-size: 40%;
 	text-align : left;
+    background-size: 40%;
 	font-family: 'coolvetica', sans-serif;
 	color:#B6B6B6;
     margin: 0px;
     padding: 0px;
+    display:flex; 
+    flex-direction:column; 
 
 }
 
@@ -113,4 +115,63 @@ header{
 	background-color:#506699 ;
     cursor: pointer;
 }
+
+
+.page{
+    padding-left: 10%;
+}
+
+footer{
+    background: rgba(66,83,123,.5);
+    margin-top:auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    height: 125px;
+}
+
+.titleBas{
+    order:0;
+    border-right: 5px solid;
+    padding-right: 2%;
+    border-spacing: 15px;
+    font-size: clamp(8px, 1vw, 12px);
+    padding-left: 2%;
+
+}
+
+
+.linksBas{
+    order:1;
+    border-right: 5px solid;
+    display: flex;
+    flex-direction:column;
+    padding-left:2%;
+    font-size: clamp(12px, 2vw, 18px);
+}
+
+.reseaux{
+    order:2;
+}
+
+.linksBas a{
+    color: #B6B6B6;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.reseaux{
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.reseaux a{
+    color: #B6B6B6;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 
